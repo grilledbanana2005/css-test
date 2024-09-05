@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thành viên</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        td {
+            font-weight: bold; 
+            padding-right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="trangchu.html">
+            <img src="images/logo.png">
+        </a>
+    <nav>
+        <sub><a href="trangchu.html">Trang chủ</a></sub>
+        <sub><a href="gioithieu.html">Giới thiệu</a></sub>
+        <sub><a href="sanpham.html">Sản phẩm</a></sub>
+        <sub><a href="tintuc.html">Tin tức</a></sub>
+        <sub><a href="dangnhap.html">Đăng nhập</a></sub>
+        <sub><a href="dangky.html">Đăng ký</a></sub>
+        <sub><a href="lienhe.html">Liên hệ</a></sub>
+    </nav>
+</header>
+    <main>
+        <form method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend style="font-weight: bold;">Đăng Ký</legend>
+            <table>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input placeholder="Vui lòng nhập email" type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Mật khẩu</label></td>
+                    <td><input placeholder="Vui lòng nhập mật khẩu" type="password" id="password" name="psw"></td>
+                </tr>
+                <tr>
+                    <td><label for="password2">Nhập lại mật khẩu</label></td>
+                    <td><input placeholder="Vui lòng nhập mật khẩu" type="password" id="password2" name="psw2"></td>
+                </tr>
+                <tr>
+                    <td>Cấp độ thành viên</td>
+                    <td><input type="radio" name="memType" id="silver" value="silver"><label for="silver">Bạc</label>
+                        <input type="radio" name="memType" id="gold" value="gold"><label for="gold">Vàng</label>
+                        <input type="radio" name="memType" id="plat" value="plat"><label for="plat">Bạch Kim</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="avatar">Ảnh đại diện</label></td>
+                    <td><input type="file" id="avatar" name="avatar"></td>
+                </tr>
+                <tr>
+                    <td  colspan="2">
+                        Thông qua việc tạo tài khoản, bạn đồng ý với 
+                        <a href="facebook.com">Điều khoản & Quyền riêng tư của chúng tôi.
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td  colspan="2">
+                        <input value="Hủy" type="reset">
+                        <input value="Đăng ký" type="submit">
+                    </td>
+                </tr>
+            </table>             
+        </fieldset>
+    </form>
+    </main>
+    <footer>
+        <p>© 2021 Bản quyền thuộc về FreeezeVN. <a href="facebook.com">facebook</a>, <a href="x.com">twitter</a>, <a href="pinterest.com">pinterest</a> <a href="#">Về Đầu Trang</a></p>
+    </footer>
+</body>
+</html>
