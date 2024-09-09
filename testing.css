@@ -1,0 +1,39 @@
+/* button {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: rgb(28, 12, 251);
+    background-color: rgb(65, 53, 237,0.3);
+    border: 10px solid rgb(28, 12, 251);;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+button:hover {
+    transform: translateX(30px);
+    background-color: rgb(28, 12, 251);
+    color: white;
+}
+ */
+
+@keyframes luotSangPhai {
+    from {
+        transform: translateX(200px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.heading-1 {
+
+    animation: luotSangPhai 1s ease-in 0s infinite reverse none;
+
+    /* animation-name: luotSangPhai;
+    animation-duration: 1s;
+    animation-timing-function: ease-in ;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both; */
+}
