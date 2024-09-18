@@ -1,0 +1,21 @@
+footer
+{
+    margin-top: 2px;
+    border: 1px solid #ccc7c8;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+} .fab {
+    color: #ed4190;
+} .top-icon {
+    background-image: url("../buoi2/top.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 6px;
+    height: 50px;
+    width: 50px;
+}

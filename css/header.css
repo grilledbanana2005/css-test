@@ -1,0 +1,100 @@
+@keyframes moving1 {
+    from {
+        left: 80%;
+    }
+    to {
+        left: 30%;
+    }
+} @keyframes moving2 {
+    from {
+        left: 80%;
+    }
+    to {
+        left: 45%;
+    }
+} @keyframes moving3 {
+    from {
+        left: 80%;
+    }
+    to {
+        left: 63%;
+    }
+}
+
+/* key frames ở trên */
+
+header {
+    background-image: url("../buoi2/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin-bottom: 8px;
+} .logo {
+    height: 36px;
+} .header-img-1 {
+    height: 100px;
+    position: absolute;
+    top: -30px;
+    animation: moving1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+} .header-img-2 {
+    height: 70px;
+    position: absolute;
+    top: -5px;
+    animation: moving2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+} .header-img-3 {
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    animation: moving3;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+} form {
+    margin-top: 28px;
+}
+
+nav {
+    margin-top: 20px;
+} .child-nav {
+    float: left;
+    margin: 3px;
+    border: 1px solid white ;
+    padding: 2px 4px 2px 4px;
+    height: 20px;
+    text-align: center;
+    color: #ed4190;
+    font-size: 17px;
+    background-color: #ffff80;
+    text-decoration: none;
+    transition: background-color 0.133s, color 0.14s;
+} .child-nav:hover {
+    background-color: #ed4190;
+    color: #fff;
+} .fa-search {
+    padding: 4px;
+    width: 30px;
+    text-align: center;
+    color: white;
+    background-color: #cddc39;
+    cursor: pointer;
+    float: right;
+} .fa-shopping-cart {
+    padding: 4px;
+    width: 30px;
+    text-align: center;
+    color: #ed4190;
+    background-color: #cddc39;
+    cursor: pointer;
+    float: right;
+    margin-left: 3px;
+} .search-bar {
+    padding-top: 3px;
+    float: right;
+} .searching-bar-items {
+    padding: 3px;
+}
+
