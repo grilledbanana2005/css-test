@@ -1,0 +1,21 @@
+/* custom */
+
+/* .layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 20px;
+} .left-side {
+    max-width: 750px;
+} .left-side > img {
+    width: 750px;
+} */
+main p {
+    font-size: 20px;
+}
+body {
+    text-align: justify;
+}
+h1 {
+    background: radial-gradient(1100px 50px at bottom, #cddc39 0%, #ffffff 10%);
+    padding-bottom: 3px;
+}

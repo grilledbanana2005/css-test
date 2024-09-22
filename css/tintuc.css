@@ -1,0 +1,23 @@
+main p {
+    font-size: 18px;
+}
+body {
+    text-align: justify;
+}
+h1 {
+    background: radial-gradient(1100px 50px at bottom, #cddc39 0%, #ffffff 10%);
+    padding-bottom: 3px;
+}
+
+.piece-of-news {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 5px;
+} .piece-of-news p {
+    margin-top: 0;
+} .piece-of-news img {
+    margin-left: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

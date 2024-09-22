@@ -28,7 +28,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100px;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
+    border: 1px solid rgb(224, 220, 220);
+    border-radius: 5px;
 } .logo {
     height: 36px;
 } .header-img-1 {
