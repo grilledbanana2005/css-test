@@ -1,0 +1,119 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer"
+    ;
+    
+    gap: 1px;
+}
+
+.header-cell {
+    grid-area: header;
+}
+.nav-cell {
+    grid-area: nav;
+}
+.main-cell {
+    grid-area: main;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #ccc7c8;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+   
+
+/* form {
+    height: auto;
+    width: auto;
+} */
+
+.footer-cell {
+    grid-area:footer;
+}
+.article-cell {
+    grid-area: article;
+}
+
+h1 {
+    text-align: center;
+    margin: 12px 0 16px 0;
+    color: #f9086d;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+    background: radial-gradient(1100px 50px at bottom, #cddc39 0%, #ffffff 10%);
+    padding-bottom: 3px;
+}
+
+h2 {
+    color: #f9086d;
+    text-transform: capitalize;
+    margin: 5px 0 10px 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+
+h3 {
+    color: #f9086d;
+    margin: 5px 0 10px 0;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+.fa-envelope,.fa-user,.fa-list,.fa-note-sticky,.fa-sticky-note{
+    padding: 4px;
+    width: 30px;
+    text-align: center;
+    color: #ed4190;
+    background-color: #cddc39;
+    cursor: pointer;
+    color: white;
+    margin-left: 3px;
+}
+
+fieldset {
+    border: none;
+    /* padding: auto; */
+    /* margin: auto; */
+    text-align: center;
+    /* display: block; */
+} fieldset img {
+    height: 12px;
+    width: auto;
+    background-color: #cddc39;
+    margin: 0;
+    padding: 4px 12px 4px 12px;
+}  fieldset span {
+    font-weight: bold;
+} fieldset p {
+    text-align: justify;
+    margin: 0;
+    font-size: 18px;
+} tr {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-left: 100px;
+}   td {
+    text-align: left;
+    font-weight: 600;
+}   table {
+    position: relative;
+    left: 20%;
+}   tbody {
+    width: 100%;
+}
+
+legend {
+    text-align: center;
+    width: 100%;
+}

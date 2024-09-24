@@ -5,7 +5,7 @@ section {
     /* background-color: red; */
     text-align: center;
     width: auto;
-    height: 400px auto;
+    height: auto;
     padding: 0;
     margin: 0;
 } section p {
@@ -24,7 +24,7 @@ section {
     #cddc39 0%,
     transparent 10%
     );
-} .products-container > * {
+} .products-container > p {
     flex: 1;
     padding: 2px;
     min-width: 0;
@@ -37,7 +37,10 @@ section {
     padding: 3px auto;
     width: 100%;
     text-align: center;
-} 
+    height: 200px;
+    flex: 0;
+    margin-bottom: 10px;
+}
 
 .grid-of-products {
     display: grid;
